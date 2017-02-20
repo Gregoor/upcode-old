@@ -1,0 +1,31 @@
+{
+  "name": "upcode",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "react-scripts": "0.8.5"
+  },
+  "dependencies": {
+    "babel-standalone": "^6.15.0",
+    "immutable": "^3.8.1",
+    "lodash": "^4.15.0",
+    "react": "^15.2.1",
+    "react-addons-shallow-compare": "^15.3.1",
+    "react-dom": "^15.2.1",
+    "styled-components": "^1.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
